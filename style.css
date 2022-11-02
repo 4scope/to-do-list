@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+main{
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+}
+.main-div{
+	border: 2px #000 solid;
+	border-radius: 10px;
+	padding: 3em 7.5em;
+}
+.head{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#add-btn,
+#clear-list-btn{
+	padding: .5em;
+}
+#ul *{
+	text-align: center;
+}
+div input{
+	padding: .5em .5em;
+}
+.li{
+	font-size: 1.2em;
+}
